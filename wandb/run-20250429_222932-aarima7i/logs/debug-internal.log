@@ -1,0 +1,16 @@
+{"time":"2025-04-29T22:29:32.978748836+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-29T22:29:32.978756783+08:00","level":"INFO","msg":"created symlink","path":"/home/dazzy/CLIP/wandb/run-20250429_222932-aarima7i/logs/debug-core.log"}
+{"time":"2025-04-29T22:29:33.082095093+08:00","level":"INFO","msg":"created new stream","id":"aarima7i"}
+{"time":"2025-04-29T22:29:33.082150092+08:00","level":"INFO","msg":"stream: started","id":"aarima7i"}
+{"time":"2025-04-29T22:29:33.082346415+08:00","level":"INFO","msg":"handler: started","stream_id":"aarima7i"}
+{"time":"2025-04-29T22:29:33.082677341+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"aarima7i"}
+{"time":"2025-04-29T22:29:33.082678197+08:00","level":"INFO","msg":"sender: started","stream_id":"aarima7i"}
+{"time":"2025-04-29T22:29:33.666668525+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-29T22:29:39.276391646+08:00","level":"INFO","msg":"stream: closing","id":"aarima7i"}
+{"time":"2025-04-29T22:29:39.276440698+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-29T22:29:39.276881806+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-29T22:29:43.557923664+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-29T22:29:44.326472784+08:00","level":"INFO","msg":"handler: closed","stream_id":"aarima7i"}
+{"time":"2025-04-29T22:29:44.326496893+08:00","level":"INFO","msg":"sender: closed","stream_id":"aarima7i"}
+{"time":"2025-04-29T22:29:44.326495132+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"aarima7i"}
+{"time":"2025-04-29T22:29:44.326539293+08:00","level":"INFO","msg":"stream: closed","id":"aarima7i"}

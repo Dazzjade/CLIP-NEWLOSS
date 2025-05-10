@@ -1,0 +1,12 @@
+{"time":"2025-04-30T01:30:29.857253296+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-30T01:30:29.857263964+08:00","level":"INFO","msg":"created symlink","path":"/home/dazzy/CLIP/wandb/run-20250430_013029-gefb4120/logs/debug-core.log"}
+{"time":"2025-04-30T01:30:29.960970795+08:00","level":"INFO","msg":"created new stream","id":"gefb4120"}
+{"time":"2025-04-30T01:30:29.961016629+08:00","level":"INFO","msg":"stream: started","id":"gefb4120"}
+{"time":"2025-04-30T01:30:29.961089177+08:00","level":"INFO","msg":"handler: started","stream_id":"gefb4120"}
+{"time":"2025-04-30T01:30:29.961484286+08:00","level":"INFO","msg":"sender: started","stream_id":"gefb4120"}
+{"time":"2025-04-30T01:30:29.961496246+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"gefb4120"}
+{"time":"2025-04-30T01:30:30.444896823+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-30T01:30:33.151261764+08:00","level":"INFO","msg":"stream: closing","id":"gefb4120"}
+{"time":"2025-04-30T01:30:33.151295346+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-30T01:30:33.152046633+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-30T01:30:34.484931083+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

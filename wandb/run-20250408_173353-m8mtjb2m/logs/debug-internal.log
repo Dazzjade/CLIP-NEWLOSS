@@ -1,0 +1,16 @@
+{"time":"2025-04-08T17:33:53.0712193+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-08T17:33:53.071241612+08:00","level":"INFO","msg":"created symlink","path":"/home/dazzy/CLIP/wandb/run-20250408_173353-m8mtjb2m/logs/debug-core.log"}
+{"time":"2025-04-08T17:33:53.17659884+08:00","level":"INFO","msg":"created new stream","id":"m8mtjb2m"}
+{"time":"2025-04-08T17:33:53.17664422+08:00","level":"INFO","msg":"stream: started","id":"m8mtjb2m"}
+{"time":"2025-04-08T17:33:53.176757569+08:00","level":"INFO","msg":"handler: started","stream_id":"m8mtjb2m"}
+{"time":"2025-04-08T17:33:53.176721654+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"m8mtjb2m"}
+{"time":"2025-04-08T17:33:53.176830781+08:00","level":"INFO","msg":"sender: started","stream_id":"m8mtjb2m"}
+{"time":"2025-04-08T17:33:55.529010031+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-08T17:35:26.113443387+08:00","level":"INFO","msg":"stream: closing","id":"m8mtjb2m"}
+{"time":"2025-04-08T17:35:26.113482676+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-08T17:35:26.114288488+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-08T17:35:29.345980765+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-08T17:35:30.067781452+08:00","level":"INFO","msg":"handler: closed","stream_id":"m8mtjb2m"}
+{"time":"2025-04-08T17:35:30.067838665+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"m8mtjb2m"}
+{"time":"2025-04-08T17:35:30.067849133+08:00","level":"INFO","msg":"sender: closed","stream_id":"m8mtjb2m"}
+{"time":"2025-04-08T17:35:30.06796673+08:00","level":"INFO","msg":"stream: closed","id":"m8mtjb2m"}

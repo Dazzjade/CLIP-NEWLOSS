@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/dazzy/CLIP/train_newloss.py", line 194, in <module>
+    base_lrs = {param_group['params']:param_group['lr'] for param_group in param_groups}
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'

@@ -1,0 +1,8 @@
+{"time":"2025-04-30T01:36:19.036506284+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-30T01:36:19.03652374+08:00","level":"INFO","msg":"created symlink","path":"/home/dazzy/CLIP/wandb/run-20250430_013619-il43hc5s/logs/debug-core.log"}
+{"time":"2025-04-30T01:36:19.139365015+08:00","level":"INFO","msg":"created new stream","id":"il43hc5s"}
+{"time":"2025-04-30T01:36:19.139420405+08:00","level":"INFO","msg":"stream: started","id":"il43hc5s"}
+{"time":"2025-04-30T01:36:19.139546969+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"il43hc5s"}
+{"time":"2025-04-30T01:36:19.139592776+08:00","level":"INFO","msg":"sender: started","stream_id":"il43hc5s"}
+{"time":"2025-04-30T01:36:19.139543338+08:00","level":"INFO","msg":"handler: started","stream_id":"il43hc5s"}
+{"time":"2025-04-30T01:36:19.686415812+08:00","level":"INFO","msg":"Starting system monitor"}

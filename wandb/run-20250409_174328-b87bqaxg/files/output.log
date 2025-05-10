@@ -1,0 +1,25 @@
+[0]-[caer]-[0]: 4.272787094116211
+[0]-[caer]-[1]: 4.459053039550781
+[0]-[caer]-[2]: 4.208402633666992
+[0]-[caer]-[3]: 4.390830039978027
+Traceback (most recent call last):
+  File "/home/dazzy/CLIP/train_newloss.py", line 158, in <module>
+    for i, batch in enumerate(loader):
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/home/dazzy/CLIP/dataset/CAER.py", line 62, in __getitem__
+    img = Image.open(img_file_path).convert('RGB')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/PIL/Image.py", line 993, in convert
+    self.load()
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/PIL/ImageFile.py", line 300, in load
+    n, err_code = decoder.decode(b)
+                  ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

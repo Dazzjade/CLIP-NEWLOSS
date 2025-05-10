@@ -1,0 +1,61 @@
+Traceback (most recent call last):
+  File "/home/dazzy/CLIP/train_newloss.py", line 167, in <module>
+    logits_per_image, logits_per_text = model(images, texts)
+                                        ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1844, in _call_impl
+    return inner()
+           ^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in inner
+    result = forward_call(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/CLIP/clip/model_copy.py", line 393, in forward
+    text_features = self.encode_text(text)
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/CLIP/clip/model_copy.py", line 373, in encode_text
+    x = self.transformer(x)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/CLIP/clip/model_copy.py", line 211, in forward
+    return self.resblocks(x)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/CLIP/clip/model_copy.py", line 198, in forward
+    x = x + self.attention(self.ln_1(x))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/CLIP/clip/model_copy.py", line 195, in attention
+    return self.attn(x, x, x, need_weights=False, attn_mask=self.attn_mask)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 1368, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/nn/functional.py", line 6131, in multi_head_attention_forward
+    raise RuntimeError(
+RuntimeError: The shape of the 2D attn_mask is torch.Size([77, 77]), but should be (78, 78).

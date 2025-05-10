@@ -1,0 +1,19 @@
+[32m[04/29 22:29:34 root]: [0m[0]-[caer]-[0]: 4.294268608093262
+[32m[04/29 22:29:35 root]: [0m[0]-[caer]-[1]: 4.047110557556152
+[32m[04/29 22:29:36 root]: [0m[0]-[caer]-[2]: 4.215230464935303
+[32m[04/29 22:29:37 root]: [0m[0]-[caer]-[3]: 4.374074935913086
+[32m[04/29 22:29:37 root]: [0m[0]-[caer]-[4]: 4.014770984649658
+[32m[04/29 22:29:38 root]: [0m[0]-[caer]-[5]: 4.207470893859863
+Traceback (most recent call last):
+  File "/home/dazzy/CLIP/train_newloss.py", line 198, in <module>
+    grad_scaler.step(optimizer)
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/amp/grad_scaler.py", line 457, in step
+    retval = self._maybe_opt_step(optimizer, optimizer_state, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/amp/grad_scaler.py", line 351, in _maybe_opt_step
+    if not sum(v.item() for v in optimizer_state["found_inf_per_device"].values()):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dazzy/.conda/envs/CLIP/lib/python3.12/site-packages/torch/amp/grad_scaler.py", line 351, in <genexpr>
+    if not sum(v.item() for v in optimizer_state["found_inf_per_device"].values()):
+               ^^^^^^^^
+KeyboardInterrupt

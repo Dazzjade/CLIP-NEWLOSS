@@ -1,0 +1,13 @@
+{"time":"2025-04-08T20:27:12.580753785+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-08T20:27:12.580784696+08:00","level":"INFO","msg":"created symlink","path":"/home/dazzy/CLIP/wandb/run-20250408_202712-cmzk4sla/logs/debug-core.log"}
+{"time":"2025-04-08T20:27:12.686150182+08:00","level":"INFO","msg":"created new stream","id":"cmzk4sla"}
+{"time":"2025-04-08T20:27:12.686197997+08:00","level":"INFO","msg":"stream: started","id":"cmzk4sla"}
+{"time":"2025-04-08T20:27:12.686311816+08:00","level":"INFO","msg":"handler: started","stream_id":"cmzk4sla"}
+{"time":"2025-04-08T20:27:12.686326271+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"cmzk4sla"}
+{"time":"2025-04-08T20:27:12.686352322+08:00","level":"INFO","msg":"sender: started","stream_id":"cmzk4sla"}
+{"time":"2025-04-08T20:27:12.780458633+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": remote error: tls: handshake failure"}
+{"time":"2025-04-08T20:27:14.970495381+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": remote error: tls: handshake failure"}
+{"time":"2025-04-08T20:27:19.208449997+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": remote error: tls: handshake failure"}
+{"time":"2025-04-08T20:27:27.551388678+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": remote error: tls: handshake failure"}
+{"time":"2025-04-08T20:27:44.655346356+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": remote error: tls: handshake failure"}
+{"time":"2025-04-08T20:27:50.134322033+08:00","level":"INFO","msg":"stream: closing","id":"cmzk4sla"}

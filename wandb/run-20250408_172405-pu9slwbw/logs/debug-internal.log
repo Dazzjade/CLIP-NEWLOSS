@@ -1,0 +1,12 @@
+{"time":"2025-04-08T17:24:05.516087943+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-08T17:24:05.516094976+08:00","level":"INFO","msg":"created symlink","path":"/home/dazzy/CLIP/wandb/run-20250408_172405-pu9slwbw/logs/debug-core.log"}
+{"time":"2025-04-08T17:24:05.61931649+08:00","level":"INFO","msg":"created new stream","id":"pu9slwbw"}
+{"time":"2025-04-08T17:24:05.619369232+08:00","level":"INFO","msg":"stream: started","id":"pu9slwbw"}
+{"time":"2025-04-08T17:24:05.619442629+08:00","level":"INFO","msg":"handler: started","stream_id":"pu9slwbw"}
+{"time":"2025-04-08T17:24:05.619455384+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"pu9slwbw"}
+{"time":"2025-04-08T17:24:05.619566416+08:00","level":"INFO","msg":"sender: started","stream_id":"pu9slwbw"}
+{"time":"2025-04-08T17:24:06.78397885+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-08T17:24:08.3694244+08:00","level":"INFO","msg":"stream: closing","id":"pu9slwbw"}
+{"time":"2025-04-08T17:24:08.369492775+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-08T17:24:08.370483034+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-08T17:24:14.346340713+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

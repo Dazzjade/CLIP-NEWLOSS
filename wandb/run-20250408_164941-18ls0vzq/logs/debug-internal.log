@@ -1,0 +1,11 @@
+{"time":"2025-04-08T16:49:41.890121167+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-08T16:49:41.890129504+08:00","level":"INFO","msg":"created symlink","path":"/home/dazzy/CLIP/wandb/run-20250408_164941-18ls0vzq/logs/debug-core.log"}
+{"time":"2025-04-08T16:49:41.993960627+08:00","level":"INFO","msg":"created new stream","id":"18ls0vzq"}
+{"time":"2025-04-08T16:49:41.994006781+08:00","level":"INFO","msg":"stream: started","id":"18ls0vzq"}
+{"time":"2025-04-08T16:49:41.994090978+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"18ls0vzq"}
+{"time":"2025-04-08T16:49:41.99411887+08:00","level":"INFO","msg":"handler: started","stream_id":"18ls0vzq"}
+{"time":"2025-04-08T16:49:41.994194345+08:00","level":"INFO","msg":"sender: started","stream_id":"18ls0vzq"}
+{"time":"2025-04-08T16:49:43.020312981+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-08T16:51:22.547006789+08:00","level":"INFO","msg":"stream: closing","id":"18ls0vzq"}
+{"time":"2025-04-08T16:51:22.547028127+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-08T16:51:22.547460981+08:00","level":"INFO","msg":"Stopped system monitor"}

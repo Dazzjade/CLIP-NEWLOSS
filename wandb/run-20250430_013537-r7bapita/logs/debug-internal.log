@@ -1,0 +1,16 @@
+{"time":"2025-04-30T01:35:37.291096132+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-30T01:35:37.291123873+08:00","level":"INFO","msg":"created symlink","path":"/home/dazzy/CLIP/wandb/run-20250430_013537-r7bapita/logs/debug-core.log"}
+{"time":"2025-04-30T01:35:37.395118305+08:00","level":"INFO","msg":"created new stream","id":"r7bapita"}
+{"time":"2025-04-30T01:35:37.395183922+08:00","level":"INFO","msg":"stream: started","id":"r7bapita"}
+{"time":"2025-04-30T01:35:37.395258742+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"r7bapita"}
+{"time":"2025-04-30T01:35:37.395341509+08:00","level":"INFO","msg":"sender: started","stream_id":"r7bapita"}
+{"time":"2025-04-30T01:35:37.395394884+08:00","level":"INFO","msg":"handler: started","stream_id":"r7bapita"}
+{"time":"2025-04-30T01:35:37.991841775+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-30T01:35:40.827354645+08:00","level":"INFO","msg":"stream: closing","id":"r7bapita"}
+{"time":"2025-04-30T01:35:40.827402738+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-30T01:35:40.8279095+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-30T01:35:42.315157703+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-30T01:35:42.71107631+08:00","level":"INFO","msg":"handler: closed","stream_id":"r7bapita"}
+{"time":"2025-04-30T01:35:42.711138572+08:00","level":"INFO","msg":"sender: closed","stream_id":"r7bapita"}
+{"time":"2025-04-30T01:35:42.711129383+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"r7bapita"}
+{"time":"2025-04-30T01:35:42.711284074+08:00","level":"INFO","msg":"stream: closed","id":"r7bapita"}

@@ -1,0 +1,16 @@
+{"time":"2025-04-08T20:28:17.882476697+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-04-08T20:28:17.882484724+08:00","level":"INFO","msg":"created symlink","path":"/home/dazzy/CLIP/wandb/run-20250408_202817-rmx5wvjz/logs/debug-core.log"}
+{"time":"2025-04-08T20:28:17.986123788+08:00","level":"INFO","msg":"created new stream","id":"rmx5wvjz"}
+{"time":"2025-04-08T20:28:17.986205734+08:00","level":"INFO","msg":"stream: started","id":"rmx5wvjz"}
+{"time":"2025-04-08T20:28:17.986260945+08:00","level":"INFO","msg":"handler: started","stream_id":"rmx5wvjz"}
+{"time":"2025-04-08T20:28:17.986295402+08:00","level":"INFO","msg":"sender: started","stream_id":"rmx5wvjz"}
+{"time":"2025-04-08T20:28:17.98627978+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"rmx5wvjz"}
+{"time":"2025-04-08T20:28:19.626750668+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-08T20:28:20.859712408+08:00","level":"INFO","msg":"stream: closing","id":"rmx5wvjz"}
+{"time":"2025-04-08T20:28:20.859757324+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-08T20:28:20.860285461+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-08T20:28:23.496979822+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-08T20:28:25.95585982+08:00","level":"INFO","msg":"handler: closed","stream_id":"rmx5wvjz"}
+{"time":"2025-04-08T20:28:25.955941745+08:00","level":"INFO","msg":"sender: closed","stream_id":"rmx5wvjz"}
+{"time":"2025-04-08T20:28:25.95592639+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rmx5wvjz"}
+{"time":"2025-04-08T20:28:25.956079805+08:00","level":"INFO","msg":"stream: closed","id":"rmx5wvjz"}
